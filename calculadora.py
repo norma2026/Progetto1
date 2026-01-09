@@ -1,4 +1,17 @@
 def somar(a, b):
     return a + b
 
-print("Resultado:", somar(3, 5))
+def subtrair(a, b):
+    return a - b
+
+def multiplicar(a, b):
+    return a * b
+
+def dividir(a, b):
+    if b == 0:
+        return "Erro: divisão por zero"
+    return a / b
+
+print("Resultado da soma:", somar(10, 5))
+print("Resultado da divisão:", dividir(10, 2))
+
